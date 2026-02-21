@@ -1,0 +1,35 @@
+{
+  "targets": [
+    "swap"
+  ],
+  "passes": [
+    {
+      "name": "ultrasecretsettings:color_convolve",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "uniforms": [
+        {
+          "name": "RedMatrix",
+          "values": [ 0.625, 0.375, 0.0 ]
+        },
+        {
+          "name": "GreenMatrix",
+          "values": [ 0.7, 0.3, 0.0 ]
+        },
+        {
+          "name": "BlueMatrix",
+          "values": [ 0.0, 0.3, 0.7 ]
+        },
+        {
+          "name": "ColorScale",
+          "values": [ 1.0, 1.0, 1.0]
+        }
+      ]
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}
