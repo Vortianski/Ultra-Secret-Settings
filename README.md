@@ -27,7 +27,7 @@ Client side mod that brings back Super Secret Settings with more shaders
 | Shader name         | Source                      |
 |---------------------|-----------------------------|
 | Pencil              | Vanilla                     |
-| Wobble(broken)      | Vanilla                     |
+| Wobble              | Vanilla                     |
 | Sobel               | Vanilla                     |
 | CRT/Scan-Pincushion | Vanilla                     |
 | Flip                | Vanilla                     |
@@ -39,7 +39,7 @@ Client side mod that brings back Super Secret Settings with more shaders
 | Blur                | Vanilla                     |
 | Art                 | Vanilla                     |
 | Bumpy               | Vanilla                     |
-| Color Convolve      | Vanilla                     |
+| Saturate            | Vanilla                     |
 | Desaturate          | Vanilla                     |
 | FXAA                | Vanilla                     |
 | Deconverge          | Vanilla                     |
@@ -52,13 +52,14 @@ Client side mod that brings back Super Secret Settings with more shaders
 | Creeper             | Vanilla                     |
 | Invert              | Vanilla                     |
 | Spider              | Vanilla                     |
+| 8-Bit               | Vanilla (Modified)          |
+| Phosphor            | Vanilla                     |
+| VHS                 | Custom                      |
+| 3D                  | Custom                      | 
 
 - Unsupported shaders
 
-| Shader name      | Reason                                                                                           |
-|------------------|--------------------------------------------------------------------------------------------------|
-| Phosphor         | Newer rendering pipeline does not work with shaders like this                                    |
-| Wobble(original) | Newer rendering pipeline somehow broke this shader functionality. Might get fixed in near future |
+None
 
 - Planned shaders
 

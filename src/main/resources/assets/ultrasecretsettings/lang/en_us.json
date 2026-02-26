@@ -20,7 +20,7 @@
   "ultrasecretsettings.blur": "Blur",
   "ultrasecretsettings.art": "Art",
   "ultrasecretsettings.bumpy": "Bumpy",
-  "ultrasecretsettings.color_convolve": "Color Convolve",
+  "ultrasecretsettings.saturate": "Saturate",
   "ultrasecretsettings.desaturate": "Desaturate",
   "ultrasecretsettings.fxaa": "FXAA",
   "ultrasecretsettings.deconverge": "Deconverge",
@@ -32,5 +32,9 @@
   "ultrasecretsettings.harsh_dither": "Harsh Dither",
   "ultrasecretsettings.creeper": "Creeper",
   "ultrasecretsettings.invert": "Invert",
-  "ultrasecretsettings.spider": "Spider"
+  "ultrasecretsettings.spider": "Spider",
+  "ultrasecretsettings.8bit": "8-BIT",
+  "ultrasecretsettings.phosphor": "Phosphor",
+  "ultrasecretsettings.3d": "Minecraft 3D",
+  "ultrasecretsettings.vhs": "VHS"
 }

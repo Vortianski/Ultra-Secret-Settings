@@ -22,7 +22,7 @@ public class SuperSecretSettingsData {
             "ultrasecretsettings:shaders/post/blur.json",
             "ultrasecretsettings:shaders/post/art.json",
             "ultrasecretsettings:shaders/post/bumpy.json",
-            "ultrasecretsettings:shaders/post/color_convolve.json",
+            "ultrasecretsettings:shaders/post/saturate.json",
             "ultrasecretsettings:shaders/post/desaturate.json",
             "ultrasecretsettings:shaders/post/fxaa.json",
             "ultrasecretsettings:shaders/post/deconverge.json",
@@ -34,7 +34,11 @@ public class SuperSecretSettingsData {
             "ultrasecretsettings:shaders/post/harsh_dither.json",
             "minecraft:shaders/post/creeper.json",
             "minecraft:shaders/post/invert.json",
-            "minecraft:shaders/post/spider.json"
+            "minecraft:shaders/post/spider.json",
+            "ultrasecretsettings:shaders/post/8bit.json",
+            "ultrasecretsettings:shaders/post/phosphor.json",
+            "ultrasecretsettings:shaders/post/3d.json",
+            "ultrasecretsettings:shaders/post/vhs.json"
     );
     public static String unappliedShader = "ultrasecretsettings:shaders/post/pencil.json";
     public static boolean shadersActive = false;

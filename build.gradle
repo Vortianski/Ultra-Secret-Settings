@@ -78,7 +78,7 @@ configurations {
 }
 
 dependencies {
-    implementation "curse.maven:shaderite-1450188:7556012"
+    implementation "curse.maven:shaderite-1450188:7682299"
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
