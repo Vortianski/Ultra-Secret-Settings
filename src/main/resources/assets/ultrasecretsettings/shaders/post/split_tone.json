@@ -4,7 +4,7 @@
   ],
   "passes": [
     {
-      "name": "ultrasecretsettings:vhs",
+      "name": "ultrasecretsettings:split_tone",
       "intarget": "minecraft:main",
       "outtarget": "swap"
     },

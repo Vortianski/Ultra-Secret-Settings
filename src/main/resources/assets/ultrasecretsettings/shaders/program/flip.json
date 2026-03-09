@@ -5,7 +5,7 @@
     "dstrgb": "zero"
   },
   "vertex": "ultrasecretsettings:flip",
-  "fragment": "blit",
+  "fragment": "ultrasecretsettings:blit",
   "attributes": [ "Position" ],
   "samplers": [
     { "name": "DiffuseSampler" }

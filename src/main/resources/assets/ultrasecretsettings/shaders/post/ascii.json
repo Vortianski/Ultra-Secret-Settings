@@ -4,7 +4,7 @@
   ],
   "passes": [
     {
-      "name": "ultrasecretsettings:vhs",
+      "name": "ultrasecretsettings:ascii",
       "intarget": "minecraft:main",
       "outtarget": "swap"
     },

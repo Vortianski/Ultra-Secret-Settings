@@ -32,9 +32,17 @@ public abstract class OptionsScreenMixin {
             ),
             locals = LocalCapture.CAPTURE_FAILHARD
     )
-    private void ultrasecretsettings$init(CallbackInfo ci, LinearLayout linearlayout, LinearLayout linearlayout1, GridLayout gridlayout, GridLayout.RowHelper gridlayout$rowhelper, Button button) {
-        OptionsScreen optionsScreen = (OptionsScreen)(Object)this;
-
-        gridlayout$rowhelper.addChild(this.openScreenButton(Component.literal("Super Secret Settings"), () -> new SuperSecretSettingsScreen(optionsScreen)));
+    private void ultrasecretsettings$init(
+            CallbackInfo ci,
+            LinearLayout linearlayout,
+            LinearLayout linearlayout1,
+            GridLayout gridlayout,
+            GridLayout.RowHelper gridlayout$rowhelper
+    ) {
+        OptionsScreen optionsScreen = (OptionsScreen) (Object) this;
+        gridlayout$rowhelper.addChild(this.openScreenButton(
+                Component.literal("Super Secret Settings"),
+                () -> new SuperSecretSettingsScreen(optionsScreen)
+        ));
     }
 }

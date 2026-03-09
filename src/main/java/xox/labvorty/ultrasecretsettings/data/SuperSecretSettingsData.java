@@ -38,7 +38,9 @@ public class SuperSecretSettingsData {
             "ultrasecretsettings:shaders/post/8bit.json",
             "ultrasecretsettings:shaders/post/phosphor.json",
             "ultrasecretsettings:shaders/post/3d.json",
-            "ultrasecretsettings:shaders/post/vhs.json"
+            "ultrasecretsettings:shaders/post/vhs.json",
+            "ultrasecretsettings:shaders/post/split_tone.json",
+            "ultrasecretsettings:shaders/post/ascii.json"
     );
     public static String unappliedShader = "ultrasecretsettings:shaders/post/pencil.json";
     public static boolean shadersActive = false;

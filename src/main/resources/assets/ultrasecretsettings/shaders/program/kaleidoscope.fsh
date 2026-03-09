@@ -60,5 +60,6 @@ void main(){
     );
 
     vec4 col = wrapTexture(DiffuseSampler, vec2(coord.x + 0.5, coord.y + 0.5));
-    fragColor = mix(texture(DiffuseSampler, texCoord), col, 1);
+    vec4 temp = mix(texture(DiffuseSampler, texCoord), col, 1.0);
+    fragColor = vec4(temp.rgb, 1.0); // force alpha = 1
 }

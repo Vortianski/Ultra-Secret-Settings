@@ -36,5 +36,7 @@
   "ultrasecretsettings.8bit": "8-BIT",
   "ultrasecretsettings.phosphor": "Phosphor",
   "ultrasecretsettings.3d": "Minecraft 3D",
-  "ultrasecretsettings.vhs": "VHS"
+  "ultrasecretsettings.vhs": "VHS",
+  "ultrasecretsettings.split_tone": "Split Tone",
+  "ultrasecretsettings.ascii": "ASCII"
 }
