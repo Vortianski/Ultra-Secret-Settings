@@ -1,3 +1,7 @@
+// This file has been modified from the original.
+// Original: Souper Secret Settings
+// Changes: Ported to NeoForge and made it work without luminance
+
 #version 150
 
 uniform sampler2D DiffuseSampler;
